@@ -63,7 +63,7 @@ export function SelectPlans({
             className="bg-blue-900 p-1 rounded-2xl h-6 w-10 cursor-pointer"
           >
             <span
-              className={`bg-white rounded-full w-4 h-4 block ${
+              className={`bg-white rounded-full w-4 h-4 block transform ${
                 isMonthly ? "translate-x-0" : "translate-x-full"
               } transition-transform`}
             ></span>
